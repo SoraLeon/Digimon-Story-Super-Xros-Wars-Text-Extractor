@@ -344,8 +344,8 @@ def repack():
             else:
                 msg = entry.msgid
 
-            # NOTE: your original implementation had a lot of special-case logic here.
-            # We'll implement a straightforward mapping: try 2-char mapping, otherwise 1-char mapping.
+
+            # 
             idx = 0
             while idx < len(msg):
                 ch = msg[idx]
@@ -506,3 +506,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
